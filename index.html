@@ -8,7 +8,174 @@
   body{font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;color:#222;background:#f6f6f7;}
   .wrap{max-width:760px;margin:0 auto;padding:48px 24px;}
   h1{font-size:28px;margin:0 0 6px;}
-  .tag{color:#666;margin:0 0 28px;}
+  .tag{color:#666;margin:0 0 28px;}<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Duola Mage - Official Site</title>
+<meta name="description" content="Duola Mage - A fast-paced anime-style roguelike action game. Multiple characters, hundreds of unique weapons, randomized builds.">
+<style>
+  *{box-sizing:border-box;}
+  body{font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;color:#222;background:#0f0f1a;color:#e0e0e0;}
+  .wrap{max-width:800px;margin:0 auto;padding:0;}
+
+  /* Hero */
+  .hero{position:relative;width:100%;}
+  .hero img{width:100%;height:auto;display:block;}
+  .hero-overlay{
+    position:absolute;bottom:0;left:0;right:0;
+    background:linear-gradient(transparent,rgba(0,0,0,0.75));
+    padding:40px 28px 24px;
+  }
+  .hero h1{font-size:36px;margin:0 0 4px;text-shadow:0 2px 8px rgba(0,0,0,0.6);}
+  .hero .subtitle{font-size:15px;color:#c0a0ff;margin:0;}
+
+  /* Content */
+  .content{padding:32px 24px 16px;}
+  .section{margin-bottom:28px;}
+  .section h2{
+    font-size:18px;color:#c0a0ff;
+    border-bottom:1px solid #2a2a3a;
+    padding-bottom:6px;margin-bottom:12px;
+  }
+  .section p{line-height:1.7;font-size:15px;color:#ccc;margin:0 0 10px;}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;}
+  .tag{
+    background:#1a1a2e;border:1px solid #3a3a5a;border-radius:20px;
+    padding:4px 14px;font-size:13px;color:#b0b0cc;
+  }
+
+  /* Features */
+  .features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;}
+  .feature{
+    background:#16162a;border:1px solid #252540;border-radius:8px;
+    padding:14px 16px;font-size:14px;color:#bbb;line-height:1.5;
+  }
+  .feature strong{color:#d0b0ff;}
+
+  /* CTA */
+  .cta{
+    display:inline-block;
+    background:linear-gradient(135deg,#7c3aed,#a855f7);
+    color:#fff !important;text-decoration:none;
+    font-weight:600;font-size:15px;
+    padding:12px 28px;border-radius:8px;
+    margin-top:8px;
+    transition:opacity 0.2s;
+  }
+  .cta:hover{opacity:0.85;text-decoration:none !important;}
+
+  /* Cards */
+  .card{background:#16162a;border:1px solid #252540;border-radius:8px;padding:18px 22px;margin:14px 0;}
+  .card h2{font-size:16px;margin:0 0 6px;}
+  .card p{font-size:14px;color:#999;margin:0;line-height:1.5;}
+  .card a{color:#a0a0ff;}
+
+  /* Developer */
+  .dev-box{
+    background:linear-gradient(135deg,#1a1035,#16162a);
+    border:1px solid #3a2a6a;border-radius:10px;
+    padding:20px 24px;margin-bottom:20px;
+  }
+  .dev-box h2{font-size:16px;color:#c0a0ff;margin:0 0 8px;}
+  .dev-box p{font-size:14px;color:#aaa;margin:0 0 4px;line-height:1.6;}
+
+  /* Footer */
+  footer{
+    color:#666;font-size:13px;text-align:center;
+    padding:20px 24px 32px;border-top:1px solid #1a1a2e;
+    margin-top:8px;
+  }
+  footer a{color:#888;}
+
+  @media(max-width:600px){
+    .features{grid-template-columns:1fr;}
+    .hero h1{font-size:26px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ===== HERO ===== -->
+    <div class="hero">
+      <img src="hero.png" alt="Duola Mage - Main Visual">
+      <div class="hero-overlay">
+        <h1>Duola Mage</h1>
+        <p class="subtitle">朵拉法师 — A Fast-Paced Anime Roguelike</p>
+      </div>
+    </div>
+
+    <!-- ===== ABOUT THE GAME ===== -->
+    <div class="content">
+      <div class="section">
+        <h2>About</h2>
+        <p>
+          Under its cute exterior lies a mowing machine. <strong>Duola Mage (朵拉法师)</strong> is a fast-paced roguelike action game:
+        </p>
+        <p>
+          <strong>Multiple Characters &times; Hundreds of Unique Weapons &times; Randomized Builds</strong> = A fresh mowing experience every single run.
+        </p>
+        <p>
+          The roguelite ladder is the core — each layer pushes deeper and hits harder, paired with 60+ levels of progression, attribute customization, equipment crafting, and out-of-run character growth! Character development meets pure mowing satisfaction.
+        </p>
+        <div class="tags">
+          <span class="tag">3D Anime Action</span>
+          <span class="tag">Roguelite</span>
+          <span class="tag">RPG</span>
+          <span class="tag">Single Player</span>
+          <span class="tag">Solo Developed</span>
+        </div>
+      </div>
+
+      <!-- ===== KEY FEATURES ===== -->
+      <div class="section">
+        <h2>Key Features</h2>
+        <div class="features">
+          <div class="feature"><strong>Multiple Playable Characters</strong><br>Each with unique skills and playstyles.</div>
+          <div class="feature"><strong>Hundreds of Unique Weapons</strong><br>Every weapon has its own special skill.</div>
+          <div class="feature"><strong>Randomized Build System</strong><br>No two runs feel the same.</div>
+          <div class="feature"><strong>Roguelite Ladder</strong><br>Layered progression that gets more satisfying the deeper you go.</div>
+          <div class="feature"><strong>60+ Levels &amp; Attributes</strong><br>Deep out-of-run growth and customization.</div>
+          <div class="feature"><strong>Equipment Crafting</strong><br>Forge and upgrade your gear between runs.</div>
+        </div>
+      </div>
+
+      <!-- ===== STEAM CTA ===== -->
+      <div class="section" style="text-align:center;">
+        <a href="https://store.steampowered.com/app/4164190/Duola_Mage/" class="cta" target="_blank">Wishlist on Steam &rarr;</a>
+      </div>
+
+      <!-- ===== DEVELOPER / PUBLISHER ===== -->
+      <div class="dev-box">
+        <h2>Developer &amp; Publisher</h2>
+        <p><strong>Duola Studio</strong></p>
+        <p>Solo-developed indie game studio. Duola Mage is our first title — built with passion, AI-assisted development, and a refusal to cut corners on gameplay.</p>
+      </div>
+
+      <!-- ===== LEGAL ===== -->
+      <div class="card">
+        <h2><a href="privacy.html">Privacy Policy</a></h2>
+        <p>Learn how your data is collected and used when you play Duola Mage.</p>
+      </div>
+
+      <div class="card">
+        <h2><a href="eula.html">End User License Agreement (EULA)</a></h2>
+        <p>The terms that govern your use of Duola Mage.</p>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      &copy; <script>document.write(new Date().getFullYear())</script> Duola Studio. All rights reserved.<br>
+      <span style="font-size:12px;margin-top:4px;display:inline-block;">Duola Mage is a trademark of Duola Studio.</span>
+    </footer>
+
+  </div>
+</body>
+</html>
+
   .card{background:#fff;border:1px solid #e5e5e5;border-radius:8px;padding:20px 24px;margin:14px 0;}
   a{color:#0070e0;text-decoration:none;}
   a:hover{text-decoration:underline;}
